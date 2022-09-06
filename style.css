@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: gainsboro;
+}
+
+#countries-selector {
+    width: 300px;
+    margin-top: 60px;
+    height: 40px;
+}
+
+.information-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    width: 600px;
+    min-height: 200px;
+    background-color: darkkhaki;
+}
+
+.flag-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    background-color: blueviolet;
+}
+
+.flag-container img {
+    width: 50%;
+    object-fit: fill;
+}
